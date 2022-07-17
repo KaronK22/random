@@ -1,0 +1,15 @@
+/*In the checkNumber function, use multiple conditional operators - 
+following the recommended format used in findGreaterLessOrEqual - to check if a number is positive, negative or zero. T
+he function should return "positive", "negative" or "zero". */
+
+/*function findGreaterLessOrEqual(a, b) {
+  return (a === b) ? "a and b are equal" 
+    : (a > b) ? "a is greater than b" 
+    : "a is less than b";
+} */
+
+function checkNumber(num) {
+ return (num === 0) ? "zero" : (num > 0) ? "positive" : "negative";
+}
+
+ console.log(checkNumber(0));
