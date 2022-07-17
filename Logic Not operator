@@ -1,0 +1,6 @@
+//Create a new variable named myObj and assign it the value of an object literal
+//Write a conditional statement that uses the ! operator to check if myObj contains the key bool, and if it does not: add the key with the value of true
+
+var myObj = {};
+
+}
