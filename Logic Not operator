@@ -2,5 +2,5 @@
 //Write a conditional statement that uses the ! operator to check if myObj contains the key bool, and if it does not: add the key with the value of true
 
 var myObj = {};
-
+if (!('bool' in myObj)? myObj.bool = true)
 }
