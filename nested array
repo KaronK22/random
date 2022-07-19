@@ -1,0 +1,40 @@
+/* var numsMatrix = [
+  [1, 2],
+  [3, 4],
+  [5, 6],
+];
+// loop over outer array
+for (var rowIndex = 0; rowIndex < numsMatrix.length; rowIndex++) { 
+  // loop over current inner array
+  const nums = numsMatrix[rowIndex];
+  for (var colIndex = 0; colIndex < nums.length; colIndex++) { 
+    // log the current number from inner array
+    console.log(nums[colIndex]); // numsMatrix[rowIndex][colIndex] also works
+  }
+}*/
+
+
+/*Modify the function addAll to add all of the numbers from passed in numbersMatrix to the variable of sum.
+
+Inputs
+A matrix of numbers (an array of arrays that contain numbers)
+Outputs
+A single number
+Constraints
+Must use nested for loops
+Edge Cases
+None.
+Example
+*/
+
+
+function addAll(numbers) {
+  var sum = 0;
+  // Your code below this line
+ 
+
+
+
+  // Your code above this line
+  return sum;
+}
