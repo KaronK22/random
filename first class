@@ -15,3 +15,19 @@
     
     // YOUR CODE ABOVE HERE //
 } console.log(createGreaterThanFilter(3));
+
+
+describe("createGreaterThanFilter()", function () {
+        it('should, given a base threshold of type Number, return a Function that tests whether a Number value is greater than the base', function() {
+            var greaterThan2 = createGreaterThanFilter(2);
+            expect(greaterThan2).to.be.instanceof(Function);
+            expect(greaterThan2(1)).to.be.false;
+            expect(greaterThan2(3)).to.be.true;
+        });
+        it('should, given a base threshold of type String, return a Function that tests whether a String value is greater than the base', function() {
+            var greaterThanB = createGreaterThanFilter('b');
+            expect(greaterThanB).to.be.instanceof(Function);
+            expect(greaterThanB('a')).to.be.false;
+            expect(greaterThanB('c')).to.be.true;
+        });
+    });
