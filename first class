@@ -4,17 +4,14 @@
  * return a Function that tests whether a given value is greater than the 
  * base.
 
-
-
-function createGreaterThanFilter(base) {
+ function createGreaterThanFilter(base) {
     // YOUR CODE BELOW HERE //
-return function value(number){
+ function value(number){
     if (base < number){
-        return true;
-
-    } 
-} 
+      return true
+     } 
+}  return value();
     
     
     // YOUR CODE ABOVE HERE //
-}
+} console.log(createGreaterThanFilter(3));
