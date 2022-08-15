@@ -31,3 +31,27 @@ describe("createGreaterThanFilter()", function () {
             expect(greaterThanB('c')).to.be.true;
         });
     });
+
+//*********************Try This ****************************
+ function createGreaterThanFilter(base) {
+    // YOUR CODE BELOW HERE //
+ 
+  return function value(number){
+    // don't mind this part i'm just testing
+    //if (base > number){
+    //console.log("true");
+    //}
+    //else{console.log("false");}
+    //--------------------------------------
+      return (base > number);
+      
+  }  
+ }
+ /*  DON'T PASTE THIS INTO YOUR CODE ******************/
+ function test (number)
+ {
+ var greaterThan2 = createGreaterThanFilter(8);  
+ return greaterThan2 (number);
+ }
+  test(5);
+  ****************************************************
